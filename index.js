@@ -85,4 +85,21 @@ let std4t = std4_mark.reduce((a1, b1) => a1+b1,0);
 console.log("student 4 total : ",std4t);
 let arr = [std1t,std2t,std3t,std4t];
 let filt = arr.filter(arr => arr>450) ;
-console.log("mark more than 450 : ",filt);
+console.log("mark more than 450 : ",filt);
+
+
+
+let sett = new Set([0,0,9,8,7,7,76,56,6]);
+console.log(sett);
+console.log(sett.add(99));
+console.log(sett.clear(9));
+console.log("Hello");
+setTimeout(()=> {
+console.log("world");},10000);
+console.log("Hello");
+console.log("Numbers: ");
+let nu =10;
+setInterval(() => {
+    for (let i = 1; i<nu;i++)
+    console.log("num : ", i)
+},1000)
