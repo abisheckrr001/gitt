@@ -1,15 +1,46 @@
-.App {
+/*.App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#output{
+  color:hotpink;
 }
+
+
+
+#btn{
+  color: white;
+  background-color: black;
+  
+  width: 100px;
+  height: 40px;
+  font-weight: bolder;
+}
+#btn:hover{
+  transform: scale(1.05);
+}
+
+.head{
+  text-transform: capitalize;
+  
+}
+.n{
+  display: inline-block;
+  margin-right:20px ;
+}
+ 
+div{
+  border: 2px solid black;
+  width: 600px;
+  margin: 0 auto;
+  
+  background-color:azure;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 10s linear;
+    
   }
 }
 
@@ -35,4 +66,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+*/
+div{
+  text-align: center;
 }
